@@ -1,0 +1,124 @@
+/*
+Theme Name: Harsha
+Theme URI: https://wpkoi.com/harsha-wpkoi-wordpress-theme/
+Template: martanda
+Author: wpkoithemes
+Author URI: https://wpkoi.com
+Description: Harsha is a child theme for Martanda WPKoi theme. You can find theme demos at wpkoi.com. Harsha has a trendy, colorful style and unique design for portfolio, business or agency content. The theme is multipurpose, so if You like the style, You can use it to represent Your art, business, an event, show Your portfolio, start a blog, start a webshop and sell Your products etc. The demos use Elementor drag and drop page builder, WooCommerce shop module and Contact Form 7 message sender plugins. The premium demo uses the Harsha premium plugin also. Harsha has an easy to use admin with a lot of customizer functions and block based template parts so You can build Your dream without coding knowledge. The theme is responsive so looks good on almost every devices. Build You site with Harsha Theme and share it with the world! You can also find a documentation with an install guide and a tutorial for the screenshot look on wpkoi.com/docs.
+Requires at least: 6.1
+Tested up to: 6.2
+Requires PHP: 7.0
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: harsha
+Tags: one-column, blog, e-commerce, flexible-header, full-width-template, custom-background, custom-colors, sticky-post, translation-ready, featured-images, editor-style
+
+*/
+
+.harsha-title-holder h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content {
+    padding: 5px 10px;
+}
+#content a {
+	text-decoration: underline;
+}
+#content .elementor-button-wrapper a {
+	text-decoration: inherit;
+}
+.site-info {
+    padding: 1vw 4vw;
+}
+.site-header-holder .align-stretch {
+    align-items: stretch;
+}
+.site-header .wp-block-site-title {
+    line-height: var(--martanda--site-title-font-size);
+}
+.site-info {
+    text-align: left;
+}
+.martanda-side-left-text-content {
+    white-space: nowrap;
+}
+.harsha-top-bar .wp-block-search .wp-block-search__button {
+    margin-left: 0;
+    padding: 5px 20px;
+    font-size: 12px;
+    line-height: 12px;
+}
+.harsha-top-bar .wp-block-search .wp-block-search__input {
+    padding: 5px 20px;
+    font-size: 12px;
+    line-height: 12px;
+}
+.harsha-top-bar .wp-block-search .wp-block-search__button:hover {
+    background-color: var(--martanda--form-button-background-color);
+    color: var(--martanda--form-button-text-color);
+}
+.site-footer .post {
+    margin: 0 0 0.5em;
+}
+.site-header-holder .wp-block-separator, .site-footer .wp-block-separator, .martanda-top-bar-content .wp-block-separator {
+    border-bottom: 1px solid;
+    height: 0;
+}
+.harsha-frame-effect .harsha-frames, .harsha-frame-effect .harsha-frame-query .wp-block-post-featured-image {
+    position: relative
+}
+.harsha-frame-effect .harsha-frame-query .wp-block-post-featured-image {
+    border: 1px solid #000;
+}
+.harsha-frame-effect .harsha-frames:before, .harsha-frame-effect .harsha-frame-query .wp-block-post-featured-image:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    left: -11px;
+    top: -11px;
+    background: #fff;
+    z-index: -1;
+}
+.harsha-frame-effect .harsha-frame-query .wp-block-post-featured-image:before {
+    left: -6px;
+    top: -6px;
+}
+.harsha-frame-effect .harsha-frames:after, .harsha-frame-effect .harsha-frame-query .wp-block-post-featured-image:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    left: -22px;
+    top: -22px;
+    background: #fff;
+    z-index: -2;
+}
+.harsha-frame-effect .harsha-frame-query .wp-block-post-featured-image:after {
+    left: -12px;
+    top: -12px;
+}
+.site-header .wp-block-site-title a {
+    line-height: 1.2;
+}
+.harsha-top-bar-scroll .js-marquee-wrapper {
+    display: flex;
+}
+.harsha-top-bar-scroll .martanda-top-bar-content p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inherit;
+}
+.site-header .wp-block-social-links .wp-social-link {
+    border-radius: 0;
+}
+.site-header .wp-block-social-links .wp-social-link a {
+    padding: 0.5em;
+}
+.martanda-back-to-top {
+    border: 1px solid;
+}
